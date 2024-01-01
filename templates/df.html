@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataFrame Display</title>
+  </head>
+  <body>
+    <h1>DataFrame Display</h1>
+    {% if df is not none %} {{ df.to_html(index=False) | safe }} {% else %}
+    <p>No DataFrame to display.</p>
+    {% endif %}
+  </body>
+</html>

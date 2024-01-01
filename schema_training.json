@@ -1,0 +1,27 @@
+{
+  "NumberofColumns": 22,
+  "ColName": {
+    "id": "int64",
+    "status": "int64",
+    "duration": "int64",
+    "credit_history": "int64",
+    "purpose": "int64",
+    "amount": "int64",
+    "savings": "int64",
+    "employment_duration": "int64",
+    "installment_rate": "int64",
+    "personal_status_sex": "int64",
+    "other_debtors": "int64",
+    "present_residence": "int64",
+    "property": "int64",
+    "age": "int64",
+    "other_installment_plans": "int64",
+    "housing": "int64",
+    "number_credits": "int64",
+    "job": "int64",
+    "people_liable": "int64",
+    "telephone": "int64",
+    "foreign_worker": "int64",
+    "credit_risk": "int64"
+  }
+}
